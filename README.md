@@ -24,7 +24,7 @@ A Python REST API developed with FastAPI as part of my AI engineering learning j
 
 python -m venv .venv
 
-python -m pip install fastapi "uvicorn\[standard]"
+python -m pip install fastapi uvicorn
 
 ```
 
@@ -42,8 +42,7 @@ python -m uvicorn main:app --reload
 
 \## API Documentation
 
-Once running, open http://127.0.0.1:8000/docs
-
+Once running, open http://127.0.0.1:8000
 
 
 \## Status
